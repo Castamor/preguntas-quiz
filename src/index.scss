@@ -7,12 +7,14 @@ html {
 *, *::before, *::after {
     padding: 0;
     margin: 0;
-    box-sizing: inherit;
-    border: none;
+    line-height: 1;
+    box-sizing: border-box;
     font-weight: 400;
 }
 
 body {
+    background-color: #171717;
+    color: white;
     font-family: "Outfit", sans-serif;
     font-size: 1.6rem;
 }
@@ -23,15 +25,27 @@ img {
 }
 
 a {
-    color: var(--negro);
     text-decoration: none;
 }
 
-ul {
-    list-style: none;
+button {
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .contenedor {
-    width: min(90%, 120rem);
+    width: min(90%, 80rem);
     margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 10rem 0 4rem;
+    padding-bottom: 2rem;
+    border-bottom: solid .3rem white;
 }

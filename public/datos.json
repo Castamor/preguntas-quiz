@@ -1,0 +1,376 @@
+{
+    "preguntas": [
+      {
+        "id": 1,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+        "respuestas": [
+          { "id": 1, "texto": "Venus" },
+          { "id": 2, "texto": "Marte" },
+          { "id": 3, "texto": "Mercurio" },
+          { "id": 4, "texto": "Júpiter" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 2,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el satélite natural de la Tierra?",
+        "respuestas": [
+          { "id": 1, "texto": "Luna" },
+          { "id": 2, "texto": "Fobos" },
+          { "id": 3, "texto": "Deimos" },
+          { "id": 4, "texto": "Europa" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 3,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Qué misión llevó al primer ser humano a la Luna?",
+        "respuestas": [
+          { "id": 1, "texto": "Apollo 11" },
+          { "id": 2, "texto": "Vostok 1" },
+          { "id": 3, "texto": "Gemini 4" },
+          { "id": 4, "texto": "Soyuz 1" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 4,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "respuestas": [
+          { "id": 1, "texto": "Neptuno" },
+          { "id": 2, "texto": "Júpiter" },
+          { "id": 3, "texto": "Saturno" },
+          { "id": 4, "texto": "Urano" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 5,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál fue la primera sonda en enviar imágenes de Marte?",
+        "respuestas": [
+          { "id": 1, "texto": "Mariner 4" },
+          { "id": 2, "texto": "Viking 1" },
+          { "id": 3, "texto": "Pathfinder" },
+          { "id": 4, "texto": "Curiosity" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 6,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta es conocido como el 'Planeta Rojo'?",
+        "respuestas": [
+          { "id": 1, "texto": "Venus" },
+          { "id": 2, "texto": "Marte" },
+          { "id": 3, "texto": "Saturno" },
+          { "id": 4, "texto": "Júpiter" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 7,
+        "tema": "Exploración espacial",
+        "pregunta": "¿En qué año se lanzó el telescopio espacial Hubble?",
+        "respuestas": [
+          { "id": 1, "texto": "1980" },
+          { "id": 2, "texto": "1990" },
+          { "id": 3, "texto": "2000" },
+          { "id": 4, "texto": "2010" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 8,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta tiene un sistema de anillos más prominente?",
+        "respuestas": [
+          { "id": 1, "texto": "Urano" },
+          { "id": 2, "texto": "Júpiter" },
+          { "id": 3, "texto": "Saturno" },
+          { "id": 4, "texto": "Neptuno" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 9,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál fue el primer satélite artificial en orbitar la Tierra?",
+        "respuestas": [
+          { "id": 1, "texto": "Explorer 1" },
+          { "id": 2, "texto": "Sputnik 1" },
+          { "id": 3, "texto": "Luna 1" },
+          { "id": 4, "texto": "Vanguard 1" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 10,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el nombre del cinturón de asteroides ubicado entre Marte y Júpiter?",
+        "respuestas": [
+          { "id": 1, "texto": "Cinturón de Kuiper" },
+          { "id": 2, "texto": "Cinturón de Van Allen" },
+          { "id": 3, "texto": "Cinturón de Asteroides" },
+          { "id": 4, "texto": "Cinturón de Oort" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 11,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Quién fue la primera mujer en viajar al espacio?",
+        "respuestas": [
+          { "id": 1, "texto": "Sally Ride" },
+          { "id": 2, "texto": "Valentina Tereshkova" },
+          { "id": 3, "texto": "Mae Jemison" },
+          { "id": 4, "texto": "Eileen Collins" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 12,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué estrella es la más cercana a la Tierra?",
+        "respuestas": [
+          { "id": 1, "texto": "Alpha Centauri" },
+          { "id": 2, "texto": "Betelgeuse" },
+          { "id": 3, "texto": "Proxima Centauri" },
+          { "id": 4, "texto": "El Sol" }
+        ],
+        "respuesta_correcta": { "id": 4 }
+      },
+      {
+        "id": 13,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál es el nombre del rover que aterrizó en Marte en 2012?",
+        "respuestas": [
+          { "id": 1, "texto": "Spirit" },
+          { "id": 2, "texto": "Opportunity" },
+          { "id": 3, "texto": "Curiosity" },
+          { "id": 4, "texto": "Perseverance" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 14,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es la galaxia más cercana a la Vía Láctea?",
+        "respuestas": [
+          { "id": 1, "texto": "Galaxia de Andrómeda" },
+          { "id": 2, "texto": "Galaxia del Triángulo" },
+          { "id": 3, "texto": "Gran Nube de Magallanes" },
+          { "id": 4, "texto": "Pequeña Nube de Magallanes" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 15,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál fue la primera sonda en sobrevolar Plutón?",
+        "respuestas": [
+          { "id": 1, "texto": "Voyager 1" },
+          { "id": 2, "texto": "Voyager 2" },
+          { "id": 3, "texto": "New Horizons" },
+          { "id": 4, "texto": "Pioneer 10" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 16,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué tipo de estrella es el Sol?",
+        "respuestas": [
+          { "id": 1, "texto": "Enana blanca" },
+          { "id": 2, "texto": "Enana amarilla" },
+          { "id": 3, "texto": "Gigante roja" },
+          { "id": 4, "texto": "Supergigante azul" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 17,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál es el nombre de la primera estación espacial internacional?",
+        "respuestas": [
+          { "id": 1, "texto": "Skylab" },
+          { "id": 2, "texto": "Mir" },
+          { "id": 3, "texto": "Estación Espacial Internacional" },
+          { "id": 4, "texto": "Salyut 1" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 18,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta es conocido por sus hermosos anillos?",
+        "respuestas": [
+          { "id": 1, "texto": "Júpiter" },
+          { "id": 2, "texto": "Urano" },
+          { "id": 3, "texto": "Neptuno" },
+          { "id": 4, "texto": "Saturno" }
+        ],
+        "respuesta_correcta": { "id": 4 }
+      },
+      {
+        "id": 19,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál es el nombre del primer hombre en viajar al espacio?",
+        "respuestas": [
+          { "id": 1, "texto": "Neil Armstrong" },
+          { "id": 2, "texto": "Buzz Aldrin" },
+          { "id": 3, "texto": "Yuri Gagarin" },
+          { "id": 4, "texto": "John Glenn" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 20,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta tiene la mayor cantidad de lunas?",
+        "respuestas": [
+          { "id": 1, "texto": "Júpiter" },
+          { "id": 2, "texto": "Saturno" },
+          { "id": 3, "texto": "Urano" },
+          { "id": 4, "texto": "Neptuno" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 21,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Qué misión de la NASA envió las primeras imágenes de Júpiter?",
+        "respuestas": [
+          { "id": 1, "texto": "Pioneer 10" },
+          { "id": 2, "texto": "Voyager 1" },
+          { "id": 3, "texto": "Galileo" },
+          { "id": 4, "texto": "Cassini" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 22,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta tiene un día que dura más que su año?",
+        "respuestas": [
+          { "id": 1, "texto": "Venus" },
+          { "id": 2, "texto": "Mercurio" },
+          { "id": 3, "texto": "Marte" },
+          { "id": 4, "texto": "Júpiter" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 23,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál fue el primer rover en aterrizar en Marte?",
+        "respuestas": [
+          { "id": 1, "texto": "Sojourner" },
+          { "id": 2, "texto": "Spirit" },
+          { "id": 3, "texto": "Opportunity" },
+          { "id": 4, "texto": "Curiosity" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 24,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el planeta más frío del sistema solar?",
+        "respuestas": [
+          { "id": 1, "texto": "Neptuno" },
+          { "id": 2, "texto": "Urano" },
+          { "id": 3, "texto": "Plutón" },
+          { "id": 4, "texto": "Marte" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 25,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Qué nave espacial fue la primera en alcanzar la superficie de la Luna?",
+        "respuestas": [
+          { "id": 1, "texto": "Luna 2" },
+          { "id": 2, "texto": "Apollo 11" },
+          { "id": 3, "texto": "Luna 9" },
+          { "id": 4, "texto": "Surveyor 1" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      },
+      {
+        "id": 26,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué fenómeno espacial es conocido como una 'estrella fugaz'?",
+        "respuestas": [
+          { "id": 1, "texto": "Cometa" },
+          { "id": 2, "texto": "Asteroide" },
+          { "id": 3, "texto": "Meteoro" },
+          { "id": 4, "texto": "Supernova" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 27,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál es el nombre del rover que aterrizó en Marte en 2021?",
+        "respuestas": [
+          { "id": 1, "texto": "Curiosity" },
+          { "id": 2, "texto": "Perseverance" },
+          { "id": 3, "texto": "Spirit" },
+          { "id": 4, "texto": "Opportunity" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 28,
+        "tema": "Astronomía",
+        "pregunta": "¿Qué planeta tiene la mayor montaña del sistema solar?",
+        "respuestas": [
+          { "id": 1, "texto": "Tierra" },
+          { "id": 2, "texto": "Marte" },
+          { "id": 3, "texto": "Venus" },
+          { "id": 4, "texto": "Mercurio" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 29,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Qué misión de la NASA fue la primera en llegar a la superficie de Marte?",
+        "respuestas": [
+          { "id": 1, "texto": "Mariner 4" },
+          { "id": 2, "texto": "Viking 1" },
+          { "id": 3, "texto": "Pathfinder" },
+          { "id": 4, "texto": "Phoenix" }
+        ],
+        "respuesta_correcta": { "id": 2 }
+      },
+      {
+        "id": 30,
+        "tema": "Astronomía",
+        "pregunta": "¿Cuál es el nombre del satélite natural de Marte?",
+        "respuestas": [
+          { "id": 1, "texto": "Europa" },
+          { "id": 2, "texto": "Ganimedes" },
+          { "id": 3, "texto": "Fobos" },
+          { "id": 4, "texto": "Ío" }
+        ],
+        "respuesta_correcta": { "id": 3 }
+      },
+      {
+        "id": 31,
+        "tema": "Exploración espacial",
+        "pregunta": "¿Cuál fue el primer ser vivo en orbitar la Tierra?",
+        "respuestas": [
+          { "id": 1, "texto": "Laika" },
+          { "id": 2, "texto": "Ham" },
+          { "id": 3, "texto": "Albert II" },
+          { "id": 4, "texto": "Félicette" }
+        ],
+        "respuesta_correcta": { "id": 1 }
+      }
+    ]
+}
