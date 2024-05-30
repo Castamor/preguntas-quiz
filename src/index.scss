@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: #171717;
+    background-color: #235cb9;
     color: white;
     font-family: "Outfit", sans-serif;
     font-size: 1.6rem;
@@ -37,15 +37,12 @@ button {
 }
 
 .contenedor {
-    width: min(90%, 80rem);
+    width: min(90%, 60rem);
     margin: 0 auto;
 }
 
-.titulo {
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 800;
-    margin: 10rem 0 4rem;
-    padding-bottom: 2rem;
-    border-bottom: solid .3rem white;
+.altura {
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }

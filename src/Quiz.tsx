@@ -1,4 +1,4 @@
-import Iniciar from "./components/Iniciar";
+import Menu from "./components/Menu";
 import Juego from "./components/Juego";
 import { usePreguntasStore } from "./store";
 
@@ -7,12 +7,9 @@ const Quiz = () => {
 
     const hayPreguntas = preguntas.length > 0
 
-
     return (
         <>
-            <h1 className="titulo">PREGUNTAS QUIZ</h1>
-
-            {!hayPreguntas && <Iniciar />}
+            {!hayPreguntas && <Menu />}
             {hayPreguntas && <Juego />}
         </>
     );

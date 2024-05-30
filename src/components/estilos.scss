@@ -1,16 +1,93 @@
-.btnIniciar {
-    display: flex;
-    justify-content: center;
-}
-
-.iniciar {
+:root {
+    --borderRadius: 1rem;
     --btnAzul: rgb(53, 155, 239);
     --btnAzul-borde: hsl(from var(--btnAzul) h s calc(l - 17.5));
+}
 
-    padding: 1.5rem 4rem;
-    border-radius: 1rem;
-    color: white;
+.titulo {
+
+
+    .saludo {
+        font-size: 2rem;
+    }
+    
+    .texto {
+        font-weight: 800;
+        font-size: 4rem;
+    }
+}
+
+.selector-temas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 60%;
+    margin: 0 auto;
+
+    .tema {
+        aspect-ratio: 1/1;
+        border-radius: var(--borderRadius);
+    }
+}
+
+.pregunta {
+    display: block;
+    padding: 4rem 2.5rem;
+    font-size: 4rem;
     font-weight: 600;
-    background-color: var(--btnAzul);
-    border-bottom: .5rem solid var(--btnAzul-borde);
+    line-height: 1;
+    text-align: center;
+    // background-color: #000000;
+    border-radius: var(--borderRadius);
+}
+
+.niveles {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 3rem;
+    position: relative;
+
+    &::before {
+        content: 'Preguntas';
+        position: absolute;
+        top: -2rem;
+    }
+
+    .input {
+        display: none;
+    }
+
+    .nivel {
+        --verde: greenyellow;
+        --amarillo: yellow;
+        --rojo: red;
+        --borde: .2rem;
+        padding: 1rem 2rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:nth-of-type(1) {
+            color: var(--verde);
+            border: var(--borde) solid var(--verde);
+            border-top-left-radius: var(--borderRadius);
+            border-bottom-left-radius: var(--borderRadius);
+        }
+
+        &:nth-of-type(2) {
+            color: var(--amarillo);
+            border: var(--borde) solid var(--amarillo);
+        }
+        
+        &:nth-of-type(3) {
+            color: var(--rojo);
+            border: var(--borde) solid var(--rojo);
+            border-top-right-radius: var(--borderRadius);
+            border-bottom-right-radius: var(--borderRadius);
+        }
+    }
 }

@@ -4,7 +4,7 @@ import { type pregunta } from '../types'
 interface StoreTypes {
     LIMITE: number
     tema: string
-    preguntaActiva: number | null
+    preguntaActiva: number
     preguntas: pregunta[]
     // eslint-disable-next-line no-unused-vars
     obtenerPreguntas: (limite: number) => void
@@ -13,7 +13,7 @@ interface StoreTypes {
 export const usePreguntasStore = create<StoreTypes>((set) => ({
     LIMITE: 5,
     tema: 'Astrología',
-    preguntaActiva: null,
+    preguntaActiva: 0,
     preguntas: [],
     async obtenerPreguntas(limite) {
         const respuesta: pregunta[] = 
